@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f4; /* Light Gray */
+        }
+        .header {
+            background-color: #343a40; /* Dark Gray */
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .card {
+            border: none;
+            border-radius: 10px;
+        }
+        .card-title {
+            color: #007bff; /* Primary Blue */
+        }
+        .footer {
+            background-color: #343a40; /* Dark Gray */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Grace Alkebbeh</h1>
+        <p>Junior Developer</p>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                Junior developer, with two year experience in creating various projects with my colleagues for different purposes using appropriate
+                frameworks and programming languages.
+                My experience includes: Building relational databases using Microsoft sql server and SQLite.
+                Manipulating Oracle databases. 
+                Building clean and user friendly web pages using HTML/CSS, JavaScript, and frameworks like asp.net and bootstrap.
+                Making sql integrations using c# and python. Using OOP technologies in java to build systems. 
+            </p>
+            <p>
+                I am fluent in English and Arabic, and have a limited knowledge in French. I write web content in English and have a 
+                decent knowledge in SEO. I'm always keen to learning new skills and technologies, as well as sharing my knowledge on my
+                Instagram IT business account.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li class="list-group-item">SQL Integrations</li>
+                        <li class="list-group-item">Database Design</li>
+                        <li class="list-group-item">Microsoft SQL Server</li>
+                        <li class="list-group-item">SQLite</li>
+                        <li class="list-group-item">Oracle</li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li class="list-group-item">JavaScript</li>
+                        <li class="list-group-item">HTML/CSS</li>
+                        <li class="list-group-item">Bootstrap</li>
+                        <li class="list-group-item">Asp.net</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li class="list-group-item">Java</li>
+                        <li class="list-group-item">C++</li>
+                        <li class="list-group-item">C#</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-group">
+                        <li class="list-group-item">GitHub</li>
+                        <li class="list-group-item">Team Work</li>
+                        <li class="list-group-item">Problem Solving</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1: Bank Branch Management System</h5>
+                            <p class="card-text">Participated in developing a website for a bank using asp.net and Microsoft SQL Server.
+                                I used SQL integration to retrieve, manipulate, and store data in the relational database, HTML/CSS to
+                                create a simple, clean and user friendly user interfaces, and session for authentication.
+                            </p>
+                            <a href="https://github.com/GraceTheProgrammer/Bank_Branch_Management.git" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2: Clothing Store (Front-End)</h5>
+                            <p class="card-text">Developed the front-end of a clothing store website using HTML/CSS and JavaScript,
+                                creating an elegant looking and user freindly website to attract costumers.
+                            </p>
+                            <a href="https://github.com/GraceTheProgrammer/Clothing_Store.git" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3: Basic hospital system</h5>
+                            <p class="card-text">Developed a simplified hospital system using python and SQListe. I used SQL integration
+                                to retrieve 
+                            </p>
+                            <a href="https://github.com/GraceTheProgrammer/Clothing_Store.git" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Grace Alkebbeh. All rights reserved.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
